@@ -14,7 +14,7 @@
 <hr />
 
 <h4 align="center"> 
-	🚧  youCan: em construção 🚧
+	 🚧 ...em construção... 🚧
 </h4>
 
 # :computer: Autor
