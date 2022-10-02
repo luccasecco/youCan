@@ -1,7 +1,10 @@
-import { ThemeProvider } from 'styled-components'
 import { StatusBar } from 'react-native'
+import { Home } from '@screens/Home'
+import { Loading } from '@components/Loading'
+
 import { useFonts, Roboto_400Regular, Roboto_700Bold } from '@expo-google-fonts/roboto'
 
+import { ThemeProvider } from 'styled-components'
 import theme from './src/theme';
 
 export default function App() {
@@ -14,6 +17,8 @@ export default function App() {
         backgroundColor="transparent"
         translucent
       />
+
+      {fontsLoaded ? <Home /> : <Loading />}
 
     </ThemeProvider>
   );
