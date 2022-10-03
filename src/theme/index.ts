@@ -2,11 +2,24 @@ export default {
   COLORS: {
     WHITE: '#FFFFFF',
 
+    ESMERALD_400: '#34d399',
+
     GREEN_700: '#00875F',
     GREEN_500: '#00B37E',
 
+    BLUE_400: '#22d3ee',
+
+    PURPLE_600: '#9333ea',
+    PURPLE_700: '#7e22ce',
+
+    VIOLET_700: '#6d28d9',
+
+    PINK_600: '#db2777',
+
     RED: '#F75A68',
     RED_DARK: '#AA2834',
+
+    YELLOW_400: '#facc15',
 
     GRAY_700: '#121214',
     GRAY_600: '#202024',
