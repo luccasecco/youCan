@@ -1,5 +1,6 @@
 import { Button } from "@components/Button";
 import { Header } from "@components/Header";
+import { Highlight } from "@components/Highlight";
 import { useState } from "react";
 import { Container, Phrase, Content } from "./styles";
 
@@ -20,7 +21,14 @@ export function NewPhrase() {
     <Container>
       <Header showBackButton={true} />
       <Content>
-        {phrases &&    
+        {!phrases ? 
+        
+        <Highlight 
+          title="Go ahead"
+          subtitle="believe in yourself"
+        />
+
+        :
         <Phrase>
           {phrases?.affirmation}
         </Phrase>}
