@@ -16,16 +16,15 @@ export const Content = styled.View`
 export const Phrase = styled.Text`
   align-items: center;
   justify-content: center;
-  margin: 2px auto;
+  margin: 0 auto;
   padding: 10px;
   border-radius: 8px;
-  width: 80%;
+  line-height: 30px;
 
   ${({theme}) => css`
-    color: ${theme.COLORS.WHITE};
+    color: ${theme.COLORS.ESMERALD_400};
     font-size: ${theme.FONT_SIZE.XL}px;
-    font-family: ${theme.FONT_FAMILY.BOLD};
+    font-family: ${theme.FONT_FAMILY.REGULAR};
+    background-color: ${theme.COLORS.GRAY_700};
   `};
-
-  line-height: 30px;
 `
