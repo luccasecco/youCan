@@ -18,7 +18,7 @@ export function Home() {
       <Content>
       <Button 
         onPress={handleStart}
-        title="Começar"
+        title="Start"
         style={{ marginTop: 'auto'}}
       />
       </Content>

@@ -20,12 +20,13 @@ export function NewPhrase() {
     <Container>
       <Header showBackButton={true} />
       <Content>
+        {phrases &&    
         <Phrase>
           {phrases?.affirmation}
-        </Phrase>
+        </Phrase>}
       </Content>
       <Button 
-        title="Gerar frase"
+        title="New phrase"
         style={{marginTop: 'auto'}}
         onPress={handleGeneratePhrase}
       />
