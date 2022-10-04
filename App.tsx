@@ -1,9 +1,9 @@
 import { StatusBar } from 'react-native'
-import { NewPhrase } from '@screens/NewPhrase'
-import { Loading } from '@components/Loading'
+import { Routes } from './src/routes'
 
 import { useFonts, Roboto_400Regular, Roboto_700Bold } from '@expo-google-fonts/roboto'
 
+import { Loading } from '@components/Loading'
 import { ThemeProvider } from 'styled-components'
 import theme from './src/theme';
 
@@ -18,7 +18,7 @@ export default function App() {
         translucent
       />
 
-      {fontsLoaded ? <NewPhrase /> : <Loading />}
+      {fontsLoaded ? <Routes /> : <Loading />}
 
     </ThemeProvider>
   );

@@ -17,11 +17,15 @@ export const Phrase = styled.Text`
   align-items: center;
   justify-content: center;
   margin: 2px auto;
+  padding: 10px;
+  border-radius: 8px;
+  width: 80%;
 
   ${({theme}) => css`
-    color: ${theme.COLORS.YELLOW_400};
+    color: ${theme.COLORS.GRAY_600};
     font-size: ${theme.FONT_SIZE.XL}px;
-    font-family: ${theme.FONT_FAMILY.REGULAR};
+    font-family: ${theme.FONT_FAMILY.BOLD};
+    background-color: ${theme.COLORS.BLUE_400};
   `};
 
   line-height: 30px;

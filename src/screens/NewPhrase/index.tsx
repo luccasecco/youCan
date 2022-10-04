@@ -18,7 +18,7 @@ export function NewPhrase() {
 
   return (
     <Container>
-      <Header />
+      <Header showBackButton={true} />
       <Content>
         <Phrase>
           {phrases?.affirmation}
