@@ -22,10 +22,9 @@ export const Phrase = styled.Text`
   width: 80%;
 
   ${({theme}) => css`
-    color: ${theme.COLORS.GRAY_600};
+    color: ${theme.COLORS.WHITE};
     font-size: ${theme.FONT_SIZE.XL}px;
     font-family: ${theme.FONT_FAMILY.BOLD};
-    background-color: ${theme.COLORS.BLUE_400};
   `};
 
   line-height: 30px;
