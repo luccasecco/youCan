@@ -17,6 +17,8 @@
 	 🚧 ...em construção... 🚧
 </h4>
 
+![youCan_developer](https://user-images.githubusercontent.com/101674470/193877032-24c0acf8-b536-43f2-b181-47d97fc18db0.jpg)
+
 # :computer: Autor
 
 <table>
