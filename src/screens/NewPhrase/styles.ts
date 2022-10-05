@@ -13,7 +13,7 @@ export const Content = styled.View`
   justify-content: center;
 `
 
-export const Phrase = styled.Text`
+export const Phrase = styled.TouchableOpacity`
   align-items: center;
   justify-content: center;
   margin: 0 auto;
@@ -22,9 +22,14 @@ export const Phrase = styled.Text`
   line-height: 30px;
 
   ${({theme}) => css`
-    color: ${theme.COLORS.ESMERALD_400};
-    font-size: ${theme.FONT_SIZE.XL}px;
-    font-family: ${theme.FONT_FAMILY.REGULAR};
     background-color: ${theme.COLORS.GRAY_700};
   `};
+`
+
+export const PhraseContent = styled.Text`
+   ${({theme}) => css`
+    color: ${theme.COLORS.GRAY_300};
+    font-size: ${theme.FONT_SIZE.XL}px;
+    font-family: ${theme.FONT_FAMILY.REGULAR};
+   `};
 `
